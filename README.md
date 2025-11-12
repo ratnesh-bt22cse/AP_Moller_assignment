@@ -19,6 +19,26 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 
 ---
 
+
+## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](images/chat_interface.png)
+
+### Session Management (ChatGPT-Style)
+![Sessions](images/sessions.png)
+
+### SQL Query Display
+![SQL Query](images/sql_query.png)
+
+### Context Aware Chat
+![Results](images/sessions.png)
+![Results](images/results_2.png)
+
+
+
+
+
 ## 🏗️ System Architecture
 
 ### High-Level Architecture
@@ -272,6 +292,22 @@ AP_moller_assignment/
 ```
 
 ---
+
+---
+
+## 🛠️ Technologies Used
+
+| Component | Technology | Purpose |
+|-----------|-----------|---------|
+| AI Model | Google Gemini 2.0 Flash | SQL generation & NL understanding |
+| Agent Framework | LangGraph | State machine workflow |
+| Database | SQLite | Data storage & queries |
+| Frontend | Streamlit | Chat interface |
+| Data Processing | Pandas | CSV to database pipeline |
+| Language | Python 3.13 | Core application |
+
+---
+
 
 ## 🔄 Data Pipeline: 9 CSVs → Unified Database
 
@@ -748,20 +784,6 @@ WHERE session_name IS NULL
 
 ---
 
-## 📸 Screenshots
-
-### Chat Interface
-![Chat Interface](images/chat_interface.png)
-
-### Session Management (ChatGPT-Style)
-![Sessions](images/sessions.png)
-
-### SQL Query Display
-![SQL Query](images/sql_query.png)
-
-### Context Aware Chat
-![Results](images/sessions.png)
-![Results](images/results_2.png)
 
 
 
