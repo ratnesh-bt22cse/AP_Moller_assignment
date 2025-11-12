@@ -214,7 +214,7 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 ```
 ```
 
-## 📝 Future Enhancements
+## 📝 Future Enhancements(If I had More time)
 
 - 📊 **Data Visualization**: Auto-generate charts from results
 - 🔍 **Advanced Filters**: Date ranges, multi-column filters
