@@ -274,22 +274,7 @@ Orders (base table)
 
 ## � Project Structure
 
-```
-AP_moller_assignment/
-├── data_structure/
-│   ├── process_data.py              # Merges 9 CSVs into SQLite database
-│   ├── olist_master_clean.db        # Master database (119K records)
-│   └── [9 CSV files]                # Raw source data
-│
-├── final_site/
-│   ├── langgraph_agent.py           # LangGraph agent + memory system
-│   ├── langgraph_app.py             # Streamlit UI + session mgmt
-│   ├── migrate_database.py          # DB schema migration tool
-│   ├── chat_history.db              # Session storage (auto-created)
-│   └── .env                         # GEMINI_API_KEY
-│
-└── README.md                        # This file
-```
+
 
 ---
 
@@ -597,41 +582,6 @@ streamlit run langgraph_app.py
 
 ---
 
-## 🐛 Troubleshooting
-
-### Issue: "No module named 'streamlit'"
-**Solution:** Make sure virtual environment is activated and dependencies are installed:
-```bash
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Issue: "GEMINI_API_KEY not found"
-**Solution:** Check that `.env` file exists in `final_site/` folder with valid API key:
-```bash
-cd final_site
-cat .env  # Should show: GEMINI_API_KEY=your_key
-```
-
-### Issue: "Database file not found"
-**Solution:** Run the data processing script:
-```bash
-cd data_structure
-python process_data.py
-```
-
-### Issue: "no such column: session_name"
-**Solution:** Run the migration script:
-```bash
-cd final_site
-python migrate_database.py
-```
-
-### Issue: Port 8501 already in use
-**Solution:** Stop existing Streamlit process or use different port:
-```bash
-streamlit run langgraph_app.py --server.port 8502
-```
 
 ---
 
@@ -696,24 +646,7 @@ AI: [Automatically queries same 5 states - remembers context!]
 
 ---
 
-## 📁 Project Structure
 
-```
-AP_moller_assignment/
-├── data_structure/
-│   ├── process_data.py              # Merges 9 CSVs → SQLite
-│   ├── olist_master_clean.db        # Master DB (119K records, 58MB)
-│   └── [9 CSV files]                # Raw Kaggle data
-│
-├── final_site/
-│   ├── langgraph_agent.py           # LangGraph agent + memory system
-│   ├── langgraph_app.py             # Streamlit UI + session mgmt
-│   ├── migrate_database.py          # DB schema migration tool
-│   ├── chat_history.db              # Session storage (auto-created)
-│   └── .env                         # GEMINI_API_KEY
-│
-└── README.md                        # This file
-```
 
 ---
 
