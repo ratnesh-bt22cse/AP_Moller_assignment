@@ -323,22 +323,6 @@ AP_moller_assignment/
 9. `product_category_name_translation.csv` - Category translations
 
 ### How They're Joined (`process_data.py`):
-```
-Orders (base table)
-  ├── LEFT JOIN Customers (on customer_id)
-  ├── LEFT JOIN Order Items (on order_id)
-  │     ├── LEFT JOIN Products (on product_id)
-  │     └── LEFT JOIN Sellers (on seller_id)
-  ├── LEFT JOIN Payments (on order_id) - aggregated
-  ├── LEFT JOIN Reviews (on order_id)
-  └── LEFT JOIN Geolocation (on customer zip code)
-
-Result: olist_master_clean.db
-- 119,143 records
-- 38 columns
-- 58MB size
-- Indexed for fast queries
-```
 
 ---
 
@@ -771,16 +755,7 @@ SET session_name = 'Conversation ' || substr(session_id, 1, 8)
 WHERE session_name IS NULL
 ```
 
-**Use cases:**
-- Schema updates between app versions
-- Adding new features (like session naming)
-- Database structure evolution
 
-### Performance
-- **Query Response**: <5 seconds average
-- **Database Size**: 58MB (119K records)
-- **Concurrent Users**: Supports multiple sessions
-- **Uptime**: Streamlit auto-restart on errors
 
 ---
 
@@ -835,7 +810,4 @@ This project demonstrates:
 
 ---
 
-## 📄 License
-
-Educational project for internship assignment evaluation.
 
