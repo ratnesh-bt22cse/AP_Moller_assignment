@@ -1,93 +1,21 @@
 # 🛍️ Brazilian E-commerce Intelligence Platform
 **AI-Powered Conversational Analytics with LangGraph**
 
-> Built for Maersk AI/ML Internshi
-
-### CSV join workflow
-!
-
-### CSV join workflow
-
-### CSV join workflow
-![Data Pipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)
-
-### Data Flow Diagrama Pipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)
-
-### Data Flow DiagramPipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)signment - Transform complex e-commerce data into insights through natural language conversations.
+> Built for Maersk AI/ML Internship Assignment - Transform complex e-commerce data into insights through natural language conversations.
 
 ---
 
 ## 📋 Overview
 
-Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed! Built with **Google Gemini AI** and **LangGraph**, this system automatically generates SQL queries, executes them, and provides conversatio## 📸 Screenshots
+Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed! Built with **Google Gemini AI** and **LangGraph**, this system automatically generates SQL queries, executes them, and provides conversational responses with full memory.
 
-### Chat Interface
-![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
-
-### Session Management (ChatGPT-Style)
-![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-
-### SQL Query Display
-![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
-
-### Context Aware Chat
-![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)
-
-
-
----
-
-## 🔒 Security & Best Practicesull memory## 📸 Screenshots
-
-### Chat Interface
-![Chat Interface](ima---
-
-## 📸 Screenshots
-
-### Chat Interface
-![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
-
-### Session Management (ChatGPT-Style)
-![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-
-### SQL Query Display
-![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
-
-### Context Aware Chat
-![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)
-
-
-25-11-12%20at%204.19.15%20PM.png)
-
-### Session Management in sidebar(ChatGPT-St## 📸 Screenshots
-
-### Chat Interface
-![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
-
-### Session Management (ChatGPT-Style)
-![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-
-### SQL Query Display
-![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
-
-### Context Aware Chat
-![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)s](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-
-### SQL Query Display
-![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
-
-### Context Aware Chat
-![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
-![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)res:**
+**Key Features:**
 - 🤖 **Agentic AI**: LangGraph state machine with autonomous decision-making
 - 💬 **Conversational Memory**: Remembers context across sessions (stores last 10 messages)
-- � **ChatGPT-Style UI**: Purple gradient session cards with auto-generated names
+- 🎨 **ChatGPT-Style UI**: Purple gradient session cards with auto-generated names
 - 💾 **Persistent Storage**: All chats saved to SQLite database
 - 🗑️ **Session Management**: Create, load, and delete conversations
-- � **Unified Database**: 9 CSV files merged into single SQLite DB (119K records)
+- 🗄️ **Unified Database**: 9 CSV files merged into single SQLite DB (119K records)
 
 ---
 
@@ -211,7 +139,7 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 
 
 ### CSV join workflow
-![Data Pipeline](images/Screenshot 2025-11-12 at%204.55.24 PM.png)
+![Data Pipeline](images/data_pipeline.png)
 
 ### Data Flow Diagram
 ```
@@ -823,17 +751,17 @@ WHERE session_name IS NULL
 ## 📸 Screenshots
 
 ### Chat Interface
-![Chat Interface](images/Screenshot 2025-11-12 at%204.19.15 PM.png)
+![Chat Interface](images/chat_interface.png)
 
 ### Session Management (ChatGPT-Style)
-![Sessions](images/Screenshot 2025-11-12 at%205.25.57 PM.png)
+![Sessions](images/sessions.png)
 
 ### SQL Query Display
-![SQL Query](images/Screenshot 2025-11-12 at%205.28.59 PM.png)
+![SQL Query](images/sql_query.png)
 
 ### Context Aware Chat
-![Results](images/Screenshot 2025-11-12 at%205.25.57 PM.png)
-![Results](images/Screenshot 2025-11-12 at%205.26.11 PM.png)
+![Results](images/sessions.png)
+![Results](images/results_2.png)
 
 
 
