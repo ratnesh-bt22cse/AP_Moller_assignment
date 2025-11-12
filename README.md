@@ -401,7 +401,7 @@ Open browser: **http://localhost:8501**
 
 | Component | Technology |
 |-----------|-----------|
-| AI Model | Google Gemini 2.0 Flash |
+| AI Model | Google Gemini 2.5 Flash |
 | Agent Framework | LangGraph (5-node state machine) |
 | Database | SQLite |
 | Frontend | Streamlit |
