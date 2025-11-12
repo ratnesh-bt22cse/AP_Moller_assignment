@@ -4,19 +4,77 @@
 > Built for Maersk AI/ML Internshi
 
 ### CSV join workflow
-![Data Pipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)signment - Transform complex e-commerce data into insights through natural language conversations.
+!
+
+### CSV join workflow
+
+### CSV join workflow
+![Data Pipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)
+
+### Data Flow Diagrama Pipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)
+
+### Data Flow DiagramPipeline](images/Screenshot%202025-11-12%20at%204.55.24%20PM.png)signment - Transform complex e-commerce data into insights through natural language conversations.
 
 ---
 
 ## 📋 Overview
 
-Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed! Built with **Google Gemini AI** and **LangGraph**, this system automatically generates SQL queries, executes them, and provides conversational responses with full memory## 📸 Screenshots
+Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed! Built with **Google Gemini AI** and **LangGraph**, this system automatically generates SQL queries, executes them, and provides conversatio## 📸 Screenshots
 
 ### Chat Interface
 ![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
 
-### Session Management in sidebar(ChatGPT-Style)
+### Session Management (ChatGPT-Style)
 ![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+
+### SQL Query Display
+![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
+
+### Context Aware Chat
+![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)
+
+
+
+---
+
+## 🔒 Security & Best Practicesull memory## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](ima---
+
+## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
+
+### Session Management (ChatGPT-Style)
+![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+
+### SQL Query Display
+![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
+
+### Context Aware Chat
+![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)
+
+
+25-11-12%20at%204.19.15%20PM.png)
+
+### Session Management in sidebar(ChatGPT-St## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](images/Screenshot%202025-11-12%20at%204.19.15%20PM.png)
+
+### Session Management (ChatGPT-Style)
+![Sessions](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+
+### SQL Query Display
+![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
+
+### Context Aware Chat
+![Results](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
+![Results](images/Screenshot%202025-11-12%20at%205.26.11%20PM.png)s](images/Screenshot%202025-11-12%20at%205.25.57%20PM.png)
 
 ### SQL Query Display
 ![SQL Query](images/Screenshot%202025-11-12%20at%205.28.59%20PM.png)
@@ -153,7 +211,7 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 
 
 ### CSV join workflow
-![Data Pipeline](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 4.55.24 PM.png)
+![Data Pipeline](images/Screenshot 2025-11-12 at%204.55.24 PM.png)
 
 ### Data Flow Diagram
 ```
@@ -765,17 +823,17 @@ WHERE session_name IS NULL
 ## 📸 Screenshots
 
 ### Chat Interface
-![Chat Interface](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 4.19.15 PM.png)
+![Chat Interface](images/Screenshot 2025-11-12 at%204.19.15 PM.png)
 
 ### Session Management (ChatGPT-Style)
-![Sessions](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 5.25.57 PM.png)
+![Sessions](images/Screenshot 2025-11-12 at%205.25.57 PM.png)
 
 ### SQL Query Display
-![SQL Query](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 5.28.59 PM.png)
+![SQL Query](images/Screenshot 2025-11-12 at%205.28.59 PM.png)
 
 ### Context Aware Chat
-![Results](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 5.25.57 PM.png)
-![Results](/Users/ratneshsingh/Developer/AP_moller assignment/images/Screenshot 2025-11-12 at 5.26.11 PM.png)
+![Results](images/Screenshot 2025-11-12 at%205.25.57 PM.png)
+![Results](images/Screenshot 2025-11-12 at%205.26.11 PM.png)
 
 
 
