@@ -73,7 +73,7 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 ┌─────────────────────────────────────────────────────────────────┐
 │                       AI MODEL LAYER                            │
 │  ┌──────────────────────────────────────────────────────────┐   │
-│  │           Google Gemini 2.0 Flash                        │   │
+│  │           Google Gemini 2.5 Flash                        │   │
 │  │  • Temperature: 0.1 (deterministic)                      │   │
 │  │  • Context window: 1M tokens                             │   │
 │  │  • Task: Natural Language → SQL conversion              │   │
