@@ -212,7 +212,16 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 - **Language**: Python 3.13
 └── README.md                        # This file
 ```
+```
 
+## 📝 Future Enhancements
+
+- 📊 **Data Visualization**: Auto-generate charts from results
+- 🔍 **Advanced Filters**: Date ranges, multi-column filters
+- 📤 **Export Options**: PDF reports, Excel exports
+- 🌐 **Multi-language**: Support Portuguese queries
+- 📈 **Analytics Dashboard**: Pre-built KPI widgets
+```
 ---
 
 ## 🔄 Data Pipeline: From 9 CSVs to Unified Database
