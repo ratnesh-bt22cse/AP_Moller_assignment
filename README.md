@@ -422,7 +422,7 @@ Educational project for Maersk AI/ML Internship Assignment.
 
 ```bash
 # Clone from GitHub
-git clone 
+git clone https://github.com/ratnesh-bt22cse/AP_Moller_assignment.git
 
 # Navigate to project directory
 cd AP_Moller_assignment
@@ -445,11 +445,7 @@ source .venv/bin/activate
 .venv\Scripts\activate
 ```
 
-**Option B: Using Conda**
-```bash
-conda create -n ecommerce-ai python=3.11
-conda activate ecommerce-ai
-```
+
 
 ### Step 3: Install Dependencies
 
@@ -487,8 +483,6 @@ GEMINI_API_KEY=your_actual_api_key_here
 DB_PATH=../data_structure/olist_master_clean.db
 ```
 
-> ⚠️ **Security:** Never commit the `.env` file to GitHub! It's already in `.gitignore`.
-
 ### Step 5: Generate Master Database
 
 This step creates the unified database from 9 CSV files (one-time setup):
@@ -507,14 +501,6 @@ python process_data.py
 - Creates `olist_master_clean.db` (119K records, 58MB)
 - Indexes tables for fast querying
 
-**Expected output:**
-```
-Processing data...
-✓ Loaded 9 CSV files
-✓ Joined tables on foreign keys
-✓ Created master database: olist_master_clean.db
-✓ Database size: 58 MB
-```
 
 ### Step 6: Initialize Chat Database
 
