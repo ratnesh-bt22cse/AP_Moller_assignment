@@ -65,7 +65,7 @@ Query 119K+ e-commerce records using **plain English** - no SQL knowledge needed
 │          (Automatic Retry with improved query)                  │
 │                                                                  │
 │  State Management:                                              │
-│  • Conversation history (last 10 messages)                      │
+│  • Conversation history                       │
 │  • Database schema cache                                        │
 │  • Session context tracking                                     │
 └─────────────────────────────┬───────────────────────────────────┘
